@@ -1,0 +1,31 @@
+{
+  "name": "alx-backend-javascript",
+  "version": "1.0.0",
+  "description": "0x00. ES6 Basics",
+  "main": "index.js",
+  "scripts": {
+    "dev": "babel-node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/korede456/alx-backend-javascript.git"
+  },
+  "author": "korede456",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/korede456/alx-backend-javascript/issues"
+  },
+  "homepage": "https://github.com/korede456/alx-backend-javascript#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7.15.0",
+    "@babel/core": "^7.15.0",
+    "@babel/node": "^7.15.0",
+    "@babel/preset-env": "^7.15.0"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  }
+}
