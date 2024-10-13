@@ -16,7 +16,7 @@ export default class HolbertonClass {
     return this._location;
   }
 
-  set location (value) {
+  set location(value) {
     this._location = value;
   }
 
