@@ -1,8 +1,8 @@
 /**
  * displayMessage - it displays a string argument in the STDOUT
- * str - argument
+ * @param (string) - argument
  */
 
-export default function displayMessage(str) {
-	console.log(str);
+export default function displayMessage(msg) {
+	console.log(msg);
 }
