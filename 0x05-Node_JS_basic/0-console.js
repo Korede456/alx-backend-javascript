@@ -3,6 +3,8 @@
  * @param (string) - argument
  */
 
-export default function displayMessage(msg) {
+const displayMessage = (msg) => {
 	console.log(msg);
 }
+
+module.exports = displayMessage
