@@ -1,5 +1,5 @@
-export default function getNeighorhoodsList() {
-  this.sanFranciscoNeighorhoods = ['SOMA', 'Union Square'];
+export default function getNeighborhoodsList() {
+  this.sanFranciscoNeighborhoods = ['SOMA', 'Union Square'];
 
   const self = this;
   this.addNeighborhood = (newNeighborhood) => {

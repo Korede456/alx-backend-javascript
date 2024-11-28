@@ -1,4 +1,6 @@
-
+/**
+ * Represents a Holberton Course.
+ */
 export default class HolbertonCourse {
   /**
    * Creates a new @see {@link HolbertonCourse}.
@@ -54,6 +56,9 @@ export default class HolbertonCourse {
     return this._students;
   }
 
+  /**
+   * Sets the names of students in this course.
+   */
   set students(value) {
     if (!(value instanceof Array)) {
       throw new TypeError('Students must be an array of strings');
